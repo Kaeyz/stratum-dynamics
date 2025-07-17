@@ -68,4 +68,8 @@ export const themeConfig: Partial<CustomThemeConfig> = {
     "13": "3.25rem",
     "101": "25.25rem",
   },
+  screens: {
+    sm: "375px",
+    xl: "1512px",
+  },
 };

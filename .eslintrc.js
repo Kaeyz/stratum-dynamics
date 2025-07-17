@@ -10,7 +10,6 @@ module.exports = {
     "next",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:storybook/recommended",
     "plugin:prettier/recommended",
     "plugin:import/recommended",
     "plugin:import/typescript",
