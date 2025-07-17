@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply max-w-full overflow-x-hidden bg-white font-geist text-[16px] text-[#003849];
+  }
+
+  h1,
+  .font-h1 {
+    @apply text-38 font-medium leading-48 sm:text-48 sm:leading-56;
+  }
+  h2,
+  .font-h2 {
+    @apply text-34 font-medium leading-44 sm:text-40 sm:leading-50;
+  }
+  h3,
+  .font-h3 {
+    @apply text-28 font-medium leading-36 sm:text-32 sm:leading-40;
+  }
+  h4,
+  .font-h4 {
+    @apply text-24 font-medium leading-32 sm:text-28 sm:leading-36;
+  }
+  h5,
+  .font-h5 {
+    @apply text-20 font-medium leading-26 sm:text-24 sm:leading-30;
+  }
+
+  .font-body_regular {
+    @apply text-16 font-regular leading-24 sm:text-18 sm:leading-26;
+  }
+  .font-body_bold {
+    @apply text-16 font-bold leading-24 sm:text-18 sm:leading-26;
+  }
+  .font-body_regular_mid {
+    @apply text-16 font-regular leading-22 sm:leading-26;
+  }
+  .font-body_bold_mid {
+    @apply text-16 font-bold leading-22 sm:leading-26;
+  }
+  .font-body_regular_small {
+    @apply text-14 font-regular leading-20;
+  }
+  .font-body_bold_small {
+    @apply text-14 font-bold leading-20;
+  }
+  .font-category {
+    @apply text-18 leading-36 sm:text-20 sm:leading-40;
+  }
+  .font-overline {
+    @apply text-20 leading-30 sm:text-22 sm:leading-30;
+  }
+
+  .font-input {
+    @apply text-14 leading-20;
+  }
+
+  .label {
+    @apply absolute mx-3 mt-3 bg-transparent px-1 transition duration-200 ease-in-out;
+  }
+  .input:focus + .label,
+  .input:valid + .label {
+    @apply z-10 mx-3 mt-0 h-6 -translate-x-4 -translate-y-4 scale-75 transform bg-white leading-9;
+  }
+
+  .remove-bg {
+    @apply bg-none;
+  }
+
+  .markdown p:not(:last-child),
+  .markdown ul:not(:last-child),
+  .markdown ol:not(:last-child) {
+    @apply mb-2;
+  }
+  .markdown ul li {
+    @apply mb-2 ml-4 list-disc marker:text-light_turquoise;
+  }
+  .markdown ol li {
+    @apply mb-2 ml-4 list-decimal;
+  }
+
+  ::-webkit-scrollbar {
+    @apply h-2 w-1 bg-none;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply h-2 rounded bg-gray;
+  }
+}
+
+@layer components {
+  .slide-down-enter {
+    @apply -translate-y-full transform opacity-0;
+    animation: slideDownAndShow 0.3s forwards;
+  }
+
+  .slide-down-exit {
+    @apply translate-y-0 transform opacity-100;
+    animation: slideUpAndHide 0.3s forwards;
+  }
+
+  @keyframes slideDownAndShow {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+      display: block;
+    }
+  }
+
+  @keyframes slideUpAndHide {
+    to {
+      transform: translateY(-100%);
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  .slide-right-enter {
+    @apply translate-x-full transform opacity-0;
+    animation: slideRightIn 0.3s forwards;
+  }
+
+  .slide-right-exit {
+    @apply translate-x-0 transform opacity-100;
+    animation: slideRightOut 0.3s forwards;
+  }
+
+  @keyframes slideRightIn {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideRightOut {
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+}
