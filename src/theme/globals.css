@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply max-w-full overflow-x-hidden bg-white font-geist text-[16px] text-[#003849];
+    @apply max-w-full overflow-x-hidden bg-white font-geist text-16 leading-21 text-black;
   }
 
   h1,
@@ -85,7 +85,7 @@
     @apply h-2 w-1 bg-none;
   }
   ::-webkit-scrollbar-thumb {
-    @apply h-2 rounded bg-gray;
+    @apply h-2 rounded bg-slated_navy;
   }
 }
 

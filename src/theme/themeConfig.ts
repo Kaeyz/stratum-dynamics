@@ -5,8 +5,9 @@ export const themeConfig: Partial<CustomThemeConfig> = {
     geist: ["Geist"],
   },
   colors: {
-    red: "red",
-    gray: "gray",
+    white: "#FFFFFF",
+    slated_navy: "#394B61",
+    light_gray: "#C1C1C1",
   },
   fontSize: {
     "48": "3em",
@@ -37,6 +38,7 @@ export const themeConfig: Partial<CustomThemeConfig> = {
     "26": "26px",
     "24": "24px",
     "22": "22px",
+    "21": "21px",
     "20": "20px",
     "18": "18px",
   },
