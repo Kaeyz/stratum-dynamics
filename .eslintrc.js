@@ -25,6 +25,7 @@ module.exports = {
     },
     "import/resolver": {
       typescript: {
+        project: "./tsconfig.json",
         alwaysTryTypes: true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
       },
     },
@@ -61,4 +62,5 @@ module.exports = {
       },
     ],
   },
+  ignorePatterns: ['**/*.eslintrc.js', '**/*.reset-project.js', 'node_modules'],
 };
