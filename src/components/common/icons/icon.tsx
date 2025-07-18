@@ -23,7 +23,6 @@ export const Icon = (props: IconProps) => {
       {...props}
       className={cn([
         sizes[props.size],
-        "text-white",
         props.name === "spinner" && "animate-spin",
         props.className,
       ])}

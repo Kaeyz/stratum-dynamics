@@ -20,6 +20,10 @@
   .font-h3 {
     @apply text-28 font-medium tracking-[-1.6px] leading-44 md:text-40 md:leading-44;
   }
+  h5,
+  .font-h5 {
+    @apply text-16 font-medium tracking-[0%] leading-24 md:text-23 md:leading-27 md:tracking-[-0.69px];
+  }
 }
 
 @layer components {}

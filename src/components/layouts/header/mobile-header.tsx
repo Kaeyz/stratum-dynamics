@@ -22,10 +22,11 @@ export const MobileHeader = (props: MobileHeaderProps) => {
           name={isMenuOpen ? "close" : "menu"}
           size="sm"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="text-white"
         />
       </div>
       {isMenuOpen && (
-        <div className="grid gap-4 px-2 py-4">
+        <div className="grid gap-4 px-2 py-8">
           {navData.map((item) => {
             return (
               <Link
