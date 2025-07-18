@@ -7,12 +7,15 @@ export const themeConfig: Partial<CustomThemeConfig> = {
   colors: {
     white: "#FFFFFF",
     slated_navy: "#394B61",
-    light_gray: "#C1C1C1",
+    light_gray: "#C1C1C166",
+    cadet_gray: "#A8B1B4",
   },
   fontSize: {
+    "74": "4.625em",
     "48": "3em",
     "40": "2.5em",
     "38": "2.375em",
+    "36": "2.25em",
     "34": "2.125em",
     "32": "2em",
     "28": "1.75em",
@@ -25,6 +28,7 @@ export const themeConfig: Partial<CustomThemeConfig> = {
     "12": "0.75em",
   },
   lineHeight: {
+    "82": "82px",
     "70": "70px",
     "56": "56px",
     "50": "50px",
@@ -48,6 +52,9 @@ export const themeConfig: Partial<CustomThemeConfig> = {
     semi_bold: "600",
     bold: "700",
   },
+  letterSpacing: {
+    tight_sm: "0.6px",
+  },
   backgroundImage: {
     "gradient-turquoise": "linear-gradient(180deg, #1E6980, #003849)",
     "gradient-blue": "linear-gradient(180deg, #D5F0F8, #B0E2F1)",
@@ -61,7 +68,6 @@ export const themeConfig: Partial<CustomThemeConfig> = {
     "4/3": "4 / 3",
   },
   spacing: {
-    container: "0.875rem",
     "84": "21rem",
   },
   height: {
@@ -70,6 +76,7 @@ export const themeConfig: Partial<CustomThemeConfig> = {
   },
   screens: {
     sm: "375px",
+    lg: "1320px",
     xl: "1512px",
   },
 };

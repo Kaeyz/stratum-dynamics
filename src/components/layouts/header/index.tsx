@@ -5,9 +5,11 @@ import { navData } from "./nav-data";
 
 export const Header = () => {
   return (
-    <header className="bg-slated_navy px-4 py-4">
-      <DesktopHeader navData={navData} />
-      <MobileHeader navData={navData} />
+    <header className="bg-slated_navy">
+      <div className="app_container">
+        <DesktopHeader navData={navData} />
+        <MobileHeader navData={navData} />
+      </div>
     </header>
   );
 };
