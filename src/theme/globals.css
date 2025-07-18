@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply overflow-x-hidden bg-white font-geist text-16 leading-21 text-black;
+    @apply overflow-x-hidden bg-white font-geist text-16 leading-21 tracking-[-0.6px] text-black;
   }
 
   .app_container {
@@ -14,6 +14,11 @@
   h2,
   .font-h2 {
     @apply text-36 font-semibold md:font-medium tracking-[-2%] leading-44 md:text-74 md:leading-82 md:tracking-[-4.44px];
+  }
+
+  h3,
+  .font-h3 {
+    @apply text-28 font-medium tracking-[-1.6px] leading-44 md:text-40 md:leading-44;
   }
 }
 

@@ -9,6 +9,7 @@ export const themeConfig: Partial<CustomThemeConfig> = {
     slated_navy: "#394B61",
     light_gray: "#C1C1C166",
     cadet_gray: "#A8B1B4",
+    green: "#079455",
   },
   fontSize: {
     "74": "4.625em",

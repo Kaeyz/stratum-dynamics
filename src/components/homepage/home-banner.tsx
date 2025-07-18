@@ -2,7 +2,7 @@ import React from "react";
 
 const renderBannerItem = (text: string) => {
   return (
-    <div className="relative grid h-[148px] w-[300px] items-center justify-center rounded-md border border-cadet_gray bg-light_gray">
+    <div className=" relative grid h-[148px] w-[300px] items-center justify-center rounded-md border border-cadet_gray bg-light_gray backdrop-blur-md">
       {/* Dots */}
       <span className="absolute left-2 top-2 h-2 w-2 rounded-full bg-white" />
       <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-white" />
