@@ -12,6 +12,7 @@ export const themeConfig: Partial<CustomThemeConfig> = {
     darker_gray: "#535862",
     cadet_gray: "#A8B1B4",
     green: "#079455",
+    normal_gray: "#E5E7EB",
   },
   fontSize: {
     "74": "4.625em",
