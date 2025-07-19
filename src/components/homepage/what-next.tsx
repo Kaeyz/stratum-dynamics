@@ -13,9 +13,9 @@ export const WhatNext = () => {
           className="object-cover"
         />
       </div>
-      <div className="app_container mx-auto grid items-center py-8 justify-center">
+      <div className="app_container mx-auto grid items-center justify-center py-8">
         <div className="grid h-max max-w-[339px] justify-items-center gap-8 md:max-w-[500px] md:justify-items-start">
-          <h3>{"What's Next"}</h3>
+          <h3>{"What's Next?"}</h3>
           <p className="text-center md:text-start">
             We are actively developing a suite of digital solutions designed to
             revolutionize the industries we serve. From AI-driven healthcare platforms to
