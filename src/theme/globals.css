@@ -24,6 +24,9 @@
   .font-h5 {
     @apply text-16 font-medium tracking-[0%] leading-24 md:text-23 md:leading-27 md:tracking-[-0.69px];
   }
+  .caption_text {
+    @apply text-14 font-regular leading-24 tracking-[1%] text-footer_gray
+  }
 }
 
 @layer components {}

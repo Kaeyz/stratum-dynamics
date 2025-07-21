@@ -4,6 +4,7 @@ import { icons } from "./icons";
 import { cn } from "@/lib/utils";
 
 const sizes = {
+  xs: "w-[24px]",
   sm: "w-[30px]",
   md: "w-10",
 };
