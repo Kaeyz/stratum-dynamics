@@ -1,6 +1,5 @@
 import React from "react";
 import { ContactUs } from "@/components/homepage/contact-us";
-import { Experience } from "@/components/homepage/experience";
 import { HomeBanner } from "@/components/homepage/home-banner";
 import { MissionSection } from "@/components/homepage/mission";
 import { RequestDemo } from "@/components/homepage/request-demo";
@@ -15,7 +14,6 @@ export default function Home() {
         <HomeBanner />
         <MissionSection />
         <WhatWeDo />
-        <Experience />
         <WhatNext />
         <WhyInvest />
         <ContactUs />

@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 export const ContactUs = () => {
   return (
-    <div className="app_container py-24 md:mx-auto  md:max-w-[1030px]">
+    <div className="app_container px-4 py-24 md:mx-auto  md:max-w-[1030px]">
       <div className="flex items-center justify-center gap-2 md:justify-start">
         <div className="h-1 w-1 rounded-full bg-cadet_gray" />
         <p className="text-[14px] leading-[16.8px] tracking-[-0.56px] text-green">
