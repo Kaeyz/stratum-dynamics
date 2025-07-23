@@ -37,7 +37,7 @@ jobs:
         done
 
         # Evaluate the final Railway CLI call
-        eval "railway variables --service server $SET_FLAGS"
+        eval "railway variables --service website $SET_FLAGS"
 
       env:
         RAILWAY_TOKEN: ${{ secrets.RAILWAY_STAGING_TOKEN }}
