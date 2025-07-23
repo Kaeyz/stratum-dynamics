@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
 
@@ -11,9 +12,11 @@ export const RequestDemo = () => {
           <h3 className="max-w-[782px] text-center text-white">
             Discover how Stratum Dynamics can transform your organization
           </h3>
-          <Button variant="primary" className="w-max">
-            Request a Demo
-          </Button>
+          <Link href="/#contact">
+            <Button variant="primary" className="w-max">
+              Request a Demo
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -31,7 +34,9 @@ export const RequestDemo = () => {
           <h3 className="max-w-[339px] text-center">
             Discover how Stratum Dynamics can transform your organization
           </h3>
-          <Button variant="primary">Request a Demo</Button>
+          <Link href="/#contact">
+            <Button variant="primary">Request a Demo</Button>
+          </Link>
         </div>
       </div>
     </div>

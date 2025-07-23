@@ -5,8 +5,8 @@ export type NavItem = {
 
 export const navData: NavItem[] = [
   { label: "Home", path: "/" },
-  { label: "About Us", path: "/" },
-  { label: "Products", path: "/" },
-  { label: "Why Invest", path: "/" },
-  { label: "Contact Us", path: "/" },
+  { label: "About Us", path: "/#about" },
+  { label: "Products", path: "/#products" },
+  { label: "Why Invest", path: "/#invest" },
+  { label: "Contact Us", path: "/#contact" },
 ];

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
 
@@ -22,9 +23,11 @@ export const WhatNext = () => {
             next-gen real estate applications, Stratum Dynamics is working on
             groundbreaking products that will transform how businesses operate.
           </p>
-          <Button variant="secondary" className="h-max w-max">
-            Sign Up for Early Access
-          </Button>
+          <Link href="/subscribe">
+            <Button variant="secondary" className="h-max w-max">
+              Sign Up for Early Access
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

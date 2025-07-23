@@ -40,7 +40,7 @@ export const MobileHeader = (props: MobileHeaderProps) => {
             );
           })}
           <Button asChild className="w-full text-center">
-            <Link href="/demo" onClick={() => setIsMenuOpen(false)}>
+            <Link href="/#contact" onClick={() => setIsMenuOpen(false)}>
               Request a demo
             </Link>
           </Button>

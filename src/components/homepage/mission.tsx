@@ -2,7 +2,7 @@ import React from "react";
 
 export const MissionSection = () => {
   return (
-    <div className="app_container grid gap-4 py-16 md:pb-4">
+    <section id="about" className="app_container grid gap-4 py-16 md:pb-4">
       <div className="md:grid md:gap-4 md:pl-32">
         <div className="flex items-center justify-center gap-2 md:justify-start">
           <div className="h-1 w-1 rounded-full bg-cadet_gray" />
@@ -27,6 +27,6 @@ export const MissionSection = () => {
           solutions
         </p>
       </div>
-    </div>
+    </section>
   );
 };

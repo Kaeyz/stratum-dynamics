@@ -2,7 +2,7 @@ import React from "react";
 
 export const WhyInvest = () => {
   return (
-    <div>
+    <section id="invest">
       <div className="my-8 h-[173.49px] bg-[url('/img/why_invest.png')] bg-cover bg-center md:my-0 md:h-[675px]">
         <div className="app_container hidden md:grid md:h-full md:items-center">
           <div className="text-white">
@@ -34,6 +34,6 @@ export const WhyInvest = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

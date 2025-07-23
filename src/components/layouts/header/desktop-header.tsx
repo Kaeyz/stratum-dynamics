@@ -11,7 +11,7 @@ type DesktopHeaderProps = {
 export const DesktopHeader = (props: DesktopHeaderProps) => {
   const { navData } = props;
   return (
-    <div className="hidden items-center justify-between gap-2 md:flex">
+    <div className="hidden items-center justify-between gap-2 py-2 md:flex">
       <AppLogo size="lg" />
       <div className="flex w-full justify-center gap-2 md:gap-4">
         {navData.map((nav) => (
@@ -20,7 +20,9 @@ export const DesktopHeader = (props: DesktopHeaderProps) => {
           </Link>
         ))}
       </div>
-      <Button>Request a Demo</Button>
+      <Link href="/#contact">
+        <Button>Request a Demo</Button>
+      </Link>
     </div>
   );
 };

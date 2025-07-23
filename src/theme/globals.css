@@ -27,6 +27,12 @@
   .caption_text {
     @apply text-14 font-regular leading-24 tracking-[1%] text-footer_gray
   }
+
+  input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px transparent inset !important;
+    -webkit-text-fill-color: inherit !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
 }
 
 @layer components {}

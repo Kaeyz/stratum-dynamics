@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 type AppLogoProps = {
@@ -12,5 +13,9 @@ const sizes: Record<AppLogoProps["size"], { w: number; h: number }> = {
 
 export const AppLogo = (props: AppLogoProps) => {
   const size = sizes[props.size];
-  return <Image src="/logo/logo.svg" alt="Logo" width={size.w} height={size.h} />;
+  return (
+    <Link href="/">
+      <Image src="/logo/logo.svg" alt="Logo" width={size.w} height={size.h} />
+    </Link>
+  );
 };

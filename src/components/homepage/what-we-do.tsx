@@ -4,7 +4,7 @@ import { Accordion } from "../common/accordion";
 
 export const WhatWeDo = () => {
   return (
-    <div className="md:app_container">
+    <section id="products" className="md:app_container">
       <div className="hidden md:mb-4 md:mt-16 md:grid md:gap-4">
         <div className="flex items-center gap-2">
           <div className="h-1 w-1 rounded-full bg-cadet_gray" />
@@ -58,6 +58,6 @@ export const WhatWeDo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
