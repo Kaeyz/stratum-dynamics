@@ -13,7 +13,7 @@ export const DesktopHeader = (props: DesktopHeaderProps) => {
   return (
     <div className="hidden items-center justify-between gap-2 py-2 md:flex">
       <AppLogo size="lg" />
-      <div className="flex w-full justify-center gap-2 md:gap-4">
+      <div className="flex w-full justify-center gap-2 md:gap-5">
         {navData.map((nav) => (
           <Link key={nav.label} href={nav.path} className="text-white">
             {nav.label}
