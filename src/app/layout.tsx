@@ -23,7 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistRegular.variable} antialiased`}>
-        <div className="m-auto w-full md:max-w-screen-xl">
+        {/* <div className="m-auto w-full md:max-w-screen-xl"> */}
+        <div>
           <Header />
           {children}
           <Footer />
