@@ -23,7 +23,7 @@ export const MissionSection = () => {
           health tech, real estate, software development, and enterprise services.
         </p>
         <p className="max-w-[235px] text-center md:text-start">
-          Drive efficiency and growth globally.to creating innovative, scalable digital
+          Drive efficiency and growth globally to creating innovative, scalable digital
           solutions
         </p>
       </div>

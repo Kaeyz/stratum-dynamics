@@ -5,7 +5,7 @@ import { navData } from "./nav-data";
 
 export const Header = () => {
   return (
-    <header className="bg-slated_navy">
+    <header className="sticky top-0 z-50 bg-slated_navy">
       <div className="app_container">
         <DesktopHeader navData={navData} />
         <MobileHeader navData={navData} />
